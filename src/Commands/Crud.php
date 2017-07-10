@@ -3,23 +3,23 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: Dwij IT Solutions
- * Developer Website: http://dwijitsolutions.com
+ * Developed by: Karim Oulad Chalha
+ * Developer Website: http://karimoc.com
  */
 
-namespace Dwij\Laraadmin\Commands;
+namespace Karim88\Laraadmin\Commands;
 
 use Config;
 use Artisan;
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\CodeGenerator;
+use Karim88\Laraadmin\Models\Module;
+use Karim88\Laraadmin\CodeGenerator;
 
 /**
  * Class Crud
- * @package Dwij\Laraadmin\Commands
+ * @package Karim88\Laraadmin\Commands
  *
  * Command that generates CRUD's for a Module. Takes Module name as input.
  */

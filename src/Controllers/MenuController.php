@@ -3,11 +3,11 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: Dwij IT Solutions
- * Developer Website: http://dwijitsolutions.com
+ * Developed by: Karim Oulad Chalha
+ * Developer Website: http://karimoc.com
  */
 
-namespace Dwij\Laraadmin\Controllers;
+namespace Karim88\Laraadmin\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
@@ -15,15 +15,15 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use DB;
 
-use Dwij\Laraadmin\Models\Menu;
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFields;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
-use Dwij\Laraadmin\Helpers\LAHelper;
+use Karim88\Laraadmin\Models\Menu;
+use Karim88\Laraadmin\Models\Module;
+use Karim88\Laraadmin\Models\ModuleFields;
+use Karim88\Laraadmin\Models\ModuleFieldTypes;
+use Karim88\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class MenuController
- * @package Dwij\Laraadmin\Controllers
+ * @package Karim88\Laraadmin\Controllers
  *
  * Works after managing Menus and their hierarchy
  */

@@ -3,22 +3,22 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: Dwij IT Solutions
- * Developer Website: http://dwijitsolutions.com
+ * Developed by: Karim Oulad Chalha
+ * Developer Website: http://karimoc.com
  */
 
-namespace Dwij\Laraadmin;
+namespace Karim88\Laraadmin;
 
 use Exception;
 use Illuminate\Filesystem\Filesystem;
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
-use Dwij\Laraadmin\Helpers\LAHelper;
-use Dwij\Laraadmin\Models\Menu;
+use Karim88\Laraadmin\Models\Module;
+use Karim88\Laraadmin\Models\ModuleFieldTypes;
+use Karim88\Laraadmin\Helpers\LAHelper;
+use Karim88\Laraadmin\Models\Menu;
 
 /**
  * Class CodeGenerator
- * @package Dwij\Laraadmin
+ * @package Karim88\Laraadmin
  *
  * This class performs the Code Generation for Controller, Model, CRUDs Views, Routes, Menu and Migrations.
  * This also generates the naming config which contains names for controllers, tables and everything required
@@ -168,7 +168,7 @@ class CodeGenerator
         $templateDirectory = __DIR__ . '/stubs';
         
         LAHelper::log("info", "Appending routes...", $comm);
-        if(\Dwij\Laraadmin\Helpers\LAHelper::laravel_ver() == 5.3) {
+        if(\Karim88\Laraadmin\Helpers\LAHelper::laravel_ver() >= 5.3) {
             $routesFile = base_path('routes/admin_routes.php');
         } else {
             $routesFile = app_path('Http/admin_routes.php');

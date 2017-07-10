@@ -3,19 +3,19 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: Dwij IT Solutions
- * Developer Website: http://dwijitsolutions.com
+ * Developed by: Karim Oulad Chalha
+ * Developer Website: http://karimoc.com
  */
 
-namespace Dwij\Laraadmin\Commands;
+namespace Karim88\Laraadmin\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Dwij\Laraadmin\Helpers\LAHelper;
+use Karim88\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class Packaging
- * @package Dwij\Laraadmin\Commands
+ * @package Karim88\Laraadmin\Commands
  *
  * Command to put latest development and changes of project into LaraAdmin package.
  * [For LaraAdmin Developer's Only]
@@ -29,7 +29,7 @@ class Packaging extends Command
     protected $signature = 'la:packaging';
     
     // Copy From Folder - Package Install Files
-    protected $description = '[Developer Only] - Copy LaraAdmin-Dev files to package: "dwij/laraadmin"';
+    protected $description = '[Developer Only] - Copy LaraAdmin-Dev files to package: "Karim88/laraadmin"';
     
     // Copy to Folder - Project Folder
     protected $from;
@@ -47,7 +47,7 @@ class Packaging extends Command
         $this->info('Exporting started...');
         
         $from = base_path();
-        $to = base_path('vendor/dwij/laraadmin/src/Installs');
+        $to = base_path('vendor/Karim88/laraadmin/src/Installs');
         
         $this->info('from: ' . $from . " to: " . $to);
         
@@ -71,7 +71,7 @@ class Packaging extends Command
         
         // Routes
         $this->line('Exporting Routes...');
-        if(LAHelper::laravel_ver() == 5.3) {
+        if(LAHelper::laravel_ver() >= 5.3) {
             // $this->copyFile($from."/routes/web.php", $to."/app/routes.php"); // Not needed anymore
             $this->copyFile($from . "/routes/admin_routes.php", $to . "/app/admin_routes.php");
         } else {

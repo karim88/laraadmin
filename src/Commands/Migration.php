@@ -3,19 +3,19 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: Dwij IT Solutions
- * Developer Website: http://dwijitsolutions.com
+ * Developed by: Karim Oulad Chalha
+ * Developer Website: http://karimoc.com
  */
 
-namespace Dwij\Laraadmin\Commands;
+namespace Karim88\Laraadmin\Commands;
 
 use Illuminate\Console\Command;
 
-use Dwij\Laraadmin\CodeGenerator;
+use Karim88\Laraadmin\CodeGenerator;
 
 /**
  * Class Migration
- * @package Dwij\Laraadmin\Commands
+ * @package Karim88\Laraadmin\Commands
  *
  * Command to generation new sample migration file or complete migration file from DB Context
  * if '--generate' parameter is used after command, it generate migration from database.

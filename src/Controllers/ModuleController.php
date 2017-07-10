@@ -3,28 +3,28 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: Dwij IT Solutions
- * Developer Website: http://dwijitsolutions.com
+ * Developed by: Karim Oulad Chalha
+ * Developer Website: http://karimoc.com
  */
 
-namespace Dwij\Laraadmin\Controllers;
+namespace Karim88\Laraadmin\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use DB;
-use Dwij\Laraadmin\Helpers\LAHelper;
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFields;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
-use Dwij\Laraadmin\CodeGenerator;
+use Karim88\Laraadmin\Helpers\LAHelper;
+use Karim88\Laraadmin\Models\Module;
+use Karim88\Laraadmin\Models\ModuleFields;
+use Karim88\Laraadmin\Models\ModuleFieldTypes;
+use Karim88\Laraadmin\CodeGenerator;
 use App\Role;
 use Schema;
-use Dwij\Laraadmin\Models\Menu;
+use Karim88\Laraadmin\Models\Menu;
 
 /**
  * Class ModuleController
- * @package Dwij\Laraadmin\Controllers
+ * @package Karim88\Laraadmin\Controllers
  *
  */
 class ModuleController extends Controller
@@ -165,7 +165,7 @@ class ModuleController extends Controller
         }
         
         // Delete Admin Routes
-        if(LAHelper::laravel_ver() == 5.3) {
+        if(LAHelper::laravel_ver() >= 5.3) {
             $file_admin_routes = base_path("/routes/admin_routes.php");
         } else {
             $file_admin_routes = base_path("/app/Http/admin_routes.php");

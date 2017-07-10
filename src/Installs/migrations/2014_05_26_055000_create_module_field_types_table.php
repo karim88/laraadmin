@@ -3,14 +3,14 @@
  * Migration generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: Dwij IT Solutions
- * Developer Website: http://dwijitsolutions.com
+ * Developed by: Karim Oulad Chalha
+ * Developer Website: http://karimoc.com
  */
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
+use Karim88\Laraadmin\Models\ModuleFieldTypes;
 
 class CreateModuleFieldTypesTable extends Migration
 {

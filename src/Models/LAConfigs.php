@@ -3,11 +3,11 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: Dwij IT Solutions
- * Developer Website: http://dwijitsolutions.com
+ * Developed by: Karim Oulad Chalha
+ * Developer Website: http://karimoc.com
  */
 
-namespace Dwij\Laraadmin\Models;
+namespace Karim88\Laraadmin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Schema;
@@ -15,11 +15,11 @@ use Illuminate\Database\Schema\Blueprint;
 use Exception;
 use Log;
 use DB;
-use Dwij\Laraadmin\Helpers\LAHelper;
+use Karim88\Laraadmin\Helpers\LAHelper;
 
 /**
  * Class LAConfigs
- * @package Dwij\Laraadmin\Models
+ * @package Karim88\Laraadmin\Models
  *
  * Config Class looks after LaraAdmin configurations.
  * Check details on http://laraadmin.com/docs

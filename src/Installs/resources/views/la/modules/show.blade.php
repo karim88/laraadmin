@@ -3,8 +3,8 @@
 @section('htmlheader_title', 'Module View')
 
 <?php
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFields;
+use Karim88\Laraadmin\Models\Module;
+use Karim88\Laraadmin\Models\ModuleFields;
 ?>
 
 @section('main-content')

@@ -3,17 +3,17 @@
  * Code generated using LaraAdmin
  * Help: http://laraadmin.com
  * LaraAdmin is open-sourced software licensed under the MIT license.
- * Developed by: Dwij IT Solutions
- * Developer Website: http://dwijitsolutions.com
+ * Developed by: Karim Oulad Chalha
+ * Developer Website: http://karimoc.com
  */
 
 use Illuminate\Database\Seeder;
 
-use Dwij\Laraadmin\Models\Module;
-use Dwij\Laraadmin\Models\ModuleFields;
-use Dwij\Laraadmin\Models\ModuleFieldTypes;
-use Dwij\Laraadmin\Models\Menu;
-use Dwij\Laraadmin\Models\LAConfigs;
+use Karim88\Laraadmin\Models\Module;
+use Karim88\Laraadmin\Models\ModuleFields;
+use Karim88\Laraadmin\Models\ModuleFieldTypes;
+use Karim88\Laraadmin\Models\Menu;
+use Karim88\Laraadmin\Models\LAConfigs;
 
 use App\Role;
 use App\Permission;

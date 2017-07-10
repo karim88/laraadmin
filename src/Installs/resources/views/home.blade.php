@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ LAConfigs::getByKey('site_description') }}">
-    <meta name="author" content="Dwij IT Solutions">
+    <meta name="author" content="Karim Oulad Chalha">
 
     <meta property="og:title" content="{{ LAConfigs::getByKey('sitename') }}" />
     <meta property="og:type" content="website" />
@@ -162,7 +162,7 @@
         <div class="col-lg-5">
             <h3>Contact Us</h3><br>
             <p>
-				Dwij IT Solutions,<br/>
+				Karim Oulad Chalha,<br/>
 				Web Development Company in Pune,<br/>
                 B4, Patang Plaza Phase 5,<br/>
                 Opp. PICT College,<br/>
@@ -170,7 +170,7 @@
             </p>
 			<div class="contact-link"><i class="fa fa-envelope-o"></i> <a href="mailto:hello@laraadmin.com">hello@laraadmin.com</a></div>
 			<div class="contact-link"><i class="fa fa-cube"></i> <a href="http://laraadmin.com">laraadmin.com</a></div>
-			<div class="contact-link"><i class="fa fa-building"></i> <a href="http://dwijitsolutions.com">dwijitsolutions.com</a></div>
+			<div class="contact-link"><i class="fa fa-building"></i> <a href="http://karimoc.com">Karim88itsolutions.com</a></div>
         </div>
 
         <div class="col-lg-7">
@@ -198,7 +198,7 @@
 <div id="c">
     <div class="container">
         <p>
-            <strong>Copyright &copy; 2016. Powered by <a href="https://dwijitsolutions.com"><b>Dwij IT Solutions</b></a>
+            <strong>Copyright &copy; 2016. Powered by <a href="https://Karim88itsolutions.com"><b>Karim Oulad Chalha</b></a>
         </p>
     </div>
 </div>
